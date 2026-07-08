@@ -1,6 +1,6 @@
 ---
 name: yt-dog-rescue-shorts
-description: Generate a complete YouTube Shorts video package for a dog rescue channel. Use this skill whenever the user wants to make a new YouTube video, Short, or script about saving or rescuing dogs — even if they just say "make me a video", "new Short", "I need content", or "generate something for my channel". Saves each video as a numbered file and outputs exactly 4 things: a Veo 3.1 Fast prompt, a title, a caption with hashtags, and a pinned creator comment for the awareness community.
+description: 'Generate a complete YouTube Shorts video package for a dog rescue channel. Use this skill whenever the user wants to make a new YouTube video, Short, or script about saving or rescuing dogs — even if they just say "make me a video", "new Short", "I need content", or "generate something for my channel". Saves each video as a numbered file and outputs exactly 4 things: a Veo 3.1 Fast prompt, a title, a caption with hashtags, and a pinned creator comment for the awareness community.'
 ---
 
 # YouTube Dog Rescue Shorts — Skill Instructions
