@@ -9,7 +9,7 @@ This skill generates 8-second YouTube Shorts about dog rescue for a channel that
 
 ## Style reference — read before generating
 
-Before writing anything, read BOTH of these files:
+Before writing anything, read ALL of these files:
 
 1. `references/guideline-rules.md` — platform compliance rules. Confirms what is and isn't allowed before you write a single word.
 2. `references/example-scripts.md` — real examples provided by the channel owner. Match their tone, pacing, prompt structure, and caption format exactly. When in doubt, ask yourself: does this sound like the ice rescue example?
@@ -85,7 +85,7 @@ Each section must be in its own code block so the user can copy it with one clic
 
 ## How to write the Veo 3.1 Fast prompt (Google Flow)
 
-Six labeled blocks, **~100–200 words total**, written for a single **8-second native Veo clip** with native synced audio. The blocks are: `Style`, `Scene`, `Subjects`, `Action`, `Camera`, `Audio`. This is the exact format video-012 (the channel's best render so far) and `references/example-scripts.md` Example 7 are built in — match it.
+Six labeled blocks, **~100–200 words total**, written for a single **8-second native Veo clip** with native synced audio. The blocks are: `Style`, `Scene`, `Subjects`, `Action`, `Camera`, `Audio`. This is the exact format that video-012 (the channel's best render so far) and `references/example-scripts.md` Example 7 are built on — match it.
 
 **The six blocks:**
 
