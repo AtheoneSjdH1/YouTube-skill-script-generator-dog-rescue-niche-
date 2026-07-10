@@ -7,6 +7,28 @@ description: 'Generate a complete YouTube Shorts video package for a dog rescue 
 
 This skill generates 8-second YouTube Shorts about dog rescue for a channel that uses AI-generated video (Veo 3.1 Fast in Google Flow). The channel goal is fast monetization without strikes or deletions.
 
+---
+
+## ⛔ STOP — MANDATORY PRE-GENERATION GATE (read this before ANYTHING else)
+
+**Do NOT write a single word of output — not a Veo prompt, not a title, not a caption, not a note, not even a "sure, here's your video" — until you have opened and read IN FULL, this session, every item below.** Reading the memory index, a past summary, or "I already know the channel" does **not** count. Open the actual files, every time.
+
+- [ ] `references/guideline-rules.md`
+- [ ] `references/example-scripts.md`
+- [ ] `references/yt-hacks.md`
+- [ ] `references/yt-rescue-ideas.md`
+- [ ] the latest `references/channel-analytics/analytics-YYYY-MM-DD/` snapshot **and the one before it** (the analytics gate below)
+- [ ] the **2–3 most recent** `videos/video-XXX.md` files (to rotate story pattern + rescuer identity)
+- [ ] **this file's own `## Rules — Non-Negotiable Before Every Script` section, re-read in full** — so the numbered rules are fresh in the moment, not recalled from memory. This is the item that makes skipping a *rule* (not just a *file*) a gate failure.
+
+If you cannot honestly tick **every** box, you are not ready to generate — read the missing item first. Skipping any file **or any numbered rule** is a rule violation, even if you "already know" the channel.
+
+**Proof is mandatory.** Before the four deliverables, your output must include the filled-in **PRE-FLIGHT** block (proving every file was read) and the **RULE COMPLIANCE CHECK** block (proving every numbered rule was applied) defined in the [Output format](#output-format--always-the-two-proof-blocks-then-the-four-parts) section. A blank, missing, or dishonest line = the gate is not finished; stop and fix.
+
+**Why this gate exists:** on video-019 the model skipped `yt-hacks.md` and `yt-rescue-ideas.md`, claimed the package was compliant, and produced a flat "average creativity" concept as a direct result. The visible proof blocks below exist so that failure cannot happen silently again.
+
+---
+
 ## Style reference — read before generating
 
 Before writing anything, read ALL of these files:
@@ -57,9 +79,42 @@ Number sequentially: `video-001.md`, `video-002.md`, etc. Check which number is 
 
 ---
 
-## Output format — always exactly this, nothing more
+## Output format — always the two proof blocks, then the four parts
 
-Each section must be in its own code block so the user can copy it with one click.
+Every output has **two mandatory proof blocks first**, then the four deliverables. The proof blocks come **before** the Veo prompt — they prove the [STOP gate](#-stop--mandatory-pre-generation-gate-read-this-before-anything-else) was completed. The four deliverables each go in their own code block so the user can copy them with one click. This same PRE-FLIGHT + RULE COMPLIANCE CHECK also goes into the saved `video-XXX.md` header (where a context note already lives — see video-017/018).
+
+### 1. PRE-FLIGHT — proves every file was read (fill each line with a CONCRETE item, never a bare ✓)
+
+```
+PRE-FLIGHT — files read this session
+- guideline-rules.md   → [one specific rule being applied]
+- example-scripts.md   → [which numbered Example is being mirrored]
+- yt-hacks.md          → [which of the 6 hook formulas the title uses]
+- yt-rescue-ideas.md   → [which numbered category the idea came from + confirm it's rotated off the last video's category]
+- analytics gate       → [signal biased toward / pattern being avoided]
+- recent videos        → [last video's story + rescuer, and how THIS one differs on both]
+```
+
+### 2. RULE COMPLIANCE CHECK — proves every numbered rule was applied
+
+Walk the clusters below; fill each with how THIS script satisfies it (quote the script where asked), or mark `N/A` with the reason. End with the literal catch-all affirmation line — it is not optional.
+
+```
+RULE COMPLIANCE CHECK
+- Gate/reading (1,2,3,9,17,21,33) → PRE-FLIGHT block above is complete; all files + Rules section read this session ✓
+- Kinetic open + loop (10,11,12,14) → Action sentence 1: "[quote]"  |  Title: "[quote]"  (both in motion)  |  ≥4 active verbs ✓  |  final image echoes opening ✓
+- Rotation (5,30)           → last video story/rescuer: [...]  →  this differs by: [...]
+- Concept creativity (32)   → distinct on: [rescuer / hazard / twist] — [detail]
+- Render-craft (20,23,24,25,26,27,28,29,31) → single-source ✓  controlled-verb ✓  visible-bark ✓  camera-block ✓  active-struggle-no-meta ✓  human-led+dog-passive ✓  cradle-hold ✓  solid-takeoff ✓  realism-not-shrink ✓  (or N/A + reason each)
+- Pacing (15,16,19)         → extraction ≤2 sentences ✓  |  payoff ≥2 sentences ✓
+- Compliance (4,6,7,8,18)   → AI-disclosure verbatim ✓  no blood ✓  warmth ending ✓  title accurate ✓  pinned comment anchored + sub/share close ✓
+- Format (13,22)            → six-block Veo ✓  ~100–200 words ✓
+- Re-read Rules 1–33 in full this session; every rule above is satisfied or marked N/A with reason; none skipped.
+```
+
+If any line above is blank, unfillable, or false, the gate is **not** finished — stop, fix the script or read the missing item, and only then continue.
+
+### 3. The four deliverables
 
 **VEO PROMPT**
 ```
@@ -133,6 +188,8 @@ Before writing anything else, ask: *"Is this the single most visually striking m
 
 Run this check on every Veo prompt before showing it to the user. If any box fails, rewrite.
 
+- [ ] **PRE-FLIGHT block is filled in** — every reference file AND this file's Rules section were read in full this session.
+- [ ] **RULE COMPLIANCE CHECK block is filled in** — every numbered rule is confirmed or marked N/A with a reason, and the "Re-read Rules 1–33… none skipped" affirmation line is present.
 - [ ] You ran the [Channel analytics — pre-generation check](#channel-analytics--pre-generation-check) gate above (or confirmed the latest snapshot is ≤2 days old).
 - [ ] You compared the newest analytics snapshot to the previous one, and matched the top performer (and the worst under-performer) to its entry in `references/example-scripts.md`, mirroring the winning structure (or noted that no matching entry exists).
 - [ ] First sentence of the Action block describes visible motion (not a pose, not a setting).
@@ -264,6 +321,10 @@ The pinned comment is a separate, copy-paste-ready message that the channel owne
 30. **Vary the rescuer's identity every video — never default to the same person.** Veo tends to render the same generic man (dark hair, plain t-shirt) in every clip, which makes the channel look repetitive. Before writing the Subjects block, check the last 2–3 videos and pick a **visibly different rescuer** — rotate gender, age, build, hair, and clothing (e.g. a woman in a raincoat, an older man with a grey beard, a young woman in a hoodie, a uniformed worker, a teenager). State one or two concrete appearance details so the render differs from recent videos. Keep the rescue mechanic and rules unchanged; only the person varies. Reason: user feedback after video-014 — "Veo is generating the same person in every video."
 
 31. **If a render reads as fake, fix it with realism craft — never by shrinking the story.** Two confirmed levers: (1) **convert actively-collapsing structures to already-collapsed static damage** — asking Veo to simulate a structure breaking apart mid-shot can render rubbery/unreal; stage the damage as already done (middle span already in the creek) and keep only a small live element (the far span sagging) for urgency; (2) **push amateur-capture cues harder** in Style + Camera — vertical smartphone framing, autofocus hunting, motion blur, raindrops/spray dotting the lens, slightly overexposed flat light. These imperfections sell "a bystander filmed this." Reason: video-015 v1 (footbridge actively tearing apart, clean handheld look) was rejected as "doesn't look real"; v2 with static damage + hardened phone cues was approved.
+
+32. **Push the story CONCEPT harder every video — the proven render skeleton is not permission to reskin the same premise.** The validated cartoon recipe (mid-stride starter → motion away from water → carry to a warm glowing destination → loop-back lick) is a *craft* template, not a *story*. Rotating only the weather/setting on the same "person wades in and carries the dog to a warm light" beat reads as **average / repetitive** (user feedback on video-019 — the third reskin of that carry, after mud riverbank and ice lake). Keep the render skeleton and all safety rules intact, but make the *premise* distinctive on at least one axis: a **surprising rescuer** (a mail carrier, a kid's grandma, a cyclist, a fisherman), an **unexpected hazard or location** (a drainage tunnel, a flooded subway stair, a collapsed greenhouse, a frozen marina, a mudslide), or a **twist / role-reversal** (the dog leads the human to another trapped animal; a second dog waiting at the destination; the rescuer is themselves stranded and the dog is the calm one). Before drafting, ask: *"Is this premise genuinely different from the last 3 videos, or just different weather on the same carry?"* If the latter, re-pitch the concept. Reason: user approved video-019 but flagged the ideas as "average creativity."
+
+33. **Run the STOP gate and emit BOTH proof blocks before every generation — this rule makes all the others un-skippable.** Before writing any output, complete the [⛔ STOP — MANDATORY PRE-GENERATION GATE](#-stop--mandatory-pre-generation-gate-read-this-before-anything-else): read every reference file, the latest two analytics snapshots, the 2–3 most recent video files, AND this Rules section in full. Then your output must begin with the filled-in **PRE-FLIGHT** block (proving every file was read) and the **RULE COMPLIANCE CHECK** block (walking every numbered rule 1–33, each confirmed or marked N/A, ending with the "none skipped" affirmation) — both defined in [Output format](#output-format--always-the-two-proof-blocks-then-the-four-parts). A missing, blank, or false line in either block means the gate is **not** finished: stop, read the missing item or fix the script, and only then show anything. Reason: on video-019 the model skipped `yt-hacks.md` and `yt-rescue-ideas.md`, wrongly claimed compliance, and produced a flat concept — the visible proof blocks make both a file-skip and a rule-skip impossible to hide.
 
 ---
 
